@@ -42,7 +42,7 @@ let timer;
 
 //  var loadQuestion = 
 function loadQuestion() {
-    const question = gameQuestions[currentQuestion].question;
+    const question = gameQuestions[currentQuestion].questions;
     const choices = gameQuestions[currentQuestion].choices;
 
     $("#game").html("<h4>" + question + "</h4>");
