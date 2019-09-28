@@ -3,27 +3,33 @@
 
 const gameQuestions = [
     {
-        questions: "What month was Drake born?",
-        choices: ["July", "Novemeber", "October", "December"],
-        correctAnswer: "October",
+        questions: "What is Southwest Airlines' vision?",
+        choices: ["To party", "To serve others", "To be the world's most loved, most flown, and most profitable airline", "To never charge for checked bags"],
+        correctAnswer: "To be the world's most loved, most flown, and most profitable airline",
     },
 
     {
-        questions: "What is Drake's real name?",
-        choices: ["Drake", "Graham", "Jimmy", "Aubrey"],
-        correctAnswer: "Aubrey",
+        questions: "What is the Southwest Airlines logo?",
+        choices: ["An airplane", "A wing", "A Heart", "An arrow pointing both South and West"],
+        correctAnswer: "A Heart",
     },
 
     {
-        questions: "What year was Take Care released?",
-        choices: ["2009", "2011", "2013", "2010"],
-        correctAnswer: "2011",
+        questions: "Who is the CEO of Southwest Airlines?",
+        choices: ["Gary Kelly", "Herb Kelleher", "Luke Stone", "Drake"],
+        correctAnswer: "Gary Kelly",
     },
 
     {
-        questions: "What was Drake first album?",
-        choices: ["Take Care", "So Far Gone", "Thank Me Later", "Best I Ever Had"],
-        correctAnswer: "So Far Gone",
+        questions: "What does is mean to live the Southwest Way?",
+        choices: ["To live in the Southwest", "To travel often", "To have a Warrior Spirit, A Servant's Heart, and a Fun-LUVing Attitude", "To attend every Deck Party"],
+        correctAnswer: "To have a Warrior Spirit, A Servant's Heart, and a Fun-LUVing Attitude",
+    },
+
+    {
+        questions: "Is Southwest Airlines an Equal Opportunity Employer?",
+        choices: ["Yes", "No", "What's that?", "I'm not sure"],
+        correctAnswer: "Yes",
     },
 
 ];

@@ -1,6 +1,6 @@
 // game variables \\
 
-let counter = 120;
+let counter = 150;
 let currentQuestion = 0;
 let score = 0;
 // let wins = 0;
