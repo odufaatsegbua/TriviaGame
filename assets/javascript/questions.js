@@ -29,23 +29,24 @@ const gameQuestions = [
 ];
 
 
-// game variables \\
 
-let counter = 30;
-let currentQuestion = 0;
-let score = 0;
-// let wins = 0;
-let loss = 0;
-let timer;
+// // game variables \\
 
-// This function will display the questions and answers choices to the browser\\
+// let counter = 30;
+// let currentQuestion = 0;
+// let score = 0;
+// // let wins = 0;
+// let loss = 0;
+// let timer;
 
-//  var loadQuestion = 
-function loadQuestion() {
-    const question = gameQuestions[currentQuestion].questions;
-    const choices = gameQuestions[currentQuestion].choices;
+// // This function will display the questions and answers choices to the browser\\
 
-    $("#game").html("<h4>" + question + "</h4>");
-}
+// //  var loadQuestion = 
+// function loadQuestion() {
+//     const question = gameQuestions[currentQuestion].questions;
+//     const choices = gameQuestions[currentQuestion].choices;
 
-loadQuestion();
+//     $("#game").html("<h4>" + question + "</h4>");
+// }
+
+// loadQuestion();
