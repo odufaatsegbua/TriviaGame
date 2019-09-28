@@ -4,31 +4,31 @@
 const gameQuestions = [
     {
         questions: "What is Southwest Airlines' vision?",
-        choices: ["To party", "To serve others", "To be the world's most loved, most flown, and most profitable airline", "To never charge for checked bags"],
+        choices: ["To party ", "To serve others ", "To be the world's most loved, most flown, and most profitable airline ", "To never charge for checked bags "],
         correctAnswer: "To be the world's most loved, most flown, and most profitable airline",
     },
 
     {
         questions: "What is the Southwest Airlines logo?",
-        choices: ["An airplane", "A wing", "A Heart", "An arrow pointing both South and West"],
+        choices: ["An airplane ", "A wing ", "A Heart ", "An arrow pointing both South and West "],
         correctAnswer: "A Heart",
     },
 
     {
         questions: "Who is the CEO of Southwest Airlines?",
-        choices: ["Gary Kelly", "Herb Kelleher", "Luke Stone", "Drake"],
+        choices: ["Gary Kelly ", "Herb Kelleher ", "Luke Stone ", "Drake "],
         correctAnswer: "Gary Kelly",
     },
 
     {
         questions: "What does is mean to live the Southwest Way?",
-        choices: ["To live in the Southwest", "To travel often", "To have a Warrior Spirit, A Servant's Heart, and a Fun-LUVing Attitude", "To attend every Deck Party"],
+        choices: ["To live in the Southwest ", "To travel often ", "To have a Warrior Spirit, A Servant's Heart, and a Fun-LUVing Attitude ", "To attend every Deck Party "],
         correctAnswer: "To have a Warrior Spirit, A Servant's Heart, and a Fun-LUVing Attitude",
     },
 
     {
         questions: "Is Southwest Airlines an Equal Opportunity Employer?",
-        choices: ["Yes", "No", "What's that?", "I'm not sure"],
+        choices: ["Yes ", "No ", "What's that? ", "I'm not sure "],
         correctAnswer: "Yes",
     },
 

@@ -1,0 +1,53 @@
+/* #header {
+    text-align: center;
+    color: #F9B612;
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+} */
+
+/* .jumbotron {
+    background-color: #3453C4;
+} */
+
+.mainHeader {
+    background-color: #3453C4;
+    color: #F9B612;
+    padding: 50px;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+
+html {
+    background-image: url(../images/swa-background.jpg);
+    /* background-size: cover; */
+ }
+
+ /* #game {
+     color: #CCCCCC;
+ } */
+
+  /* #game {
+    float: center;
+    max-width: 960px;
+    margin: auto;
+    background-color: #E51D23;
+ } */
+
+ body {
+    float: center;
+    max-width: 960px;
+    margin: auto;
+    background-color: #E51D23;
+    padding: 25px;
+ }
+
+ /* #time {
+    float: center;
+    max-width: 960px;
+    margin: auto;
+    background-color: #E51D23;
+ } */
+
+

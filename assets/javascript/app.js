@@ -12,6 +12,7 @@ let timer;
 //  var loadQuestion = 
 function loadQuestion() {
 
+    // we used a for loop so the function will loop through each quetion and each answer choice\\
     for(var i = 0; i < gameQuestions.length; i++) {
 
     
@@ -56,6 +57,7 @@ function countdown() {
         
     // we will call another function that we will create after this one
     // This function will capture users answers and compare them to the correct answers in questions.js
+    
     // then we will give users a score based on correct answers 
     // and display users score to user\\
     }
