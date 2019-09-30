@@ -10,44 +10,50 @@
 } */
 
 .mainHeader {
-    background-color: #3453C4;
-    color: #F9B612;
-    padding: 50px;
-    font-size: 45px;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
+  background-color: #3453c4;
+  color: #f9b612;
+  padding: 50px;
+  font-size: 45px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
 }
 
+.answerOption {
+  margin-right: 10px;
+}
 
-html {
-    background-image: url(../images/swa-background.jpg);
-    /* background-size: cover; */
- }
+body {
+  background-image: url(../images/swa-background.jpg);
+  /* background-size: cover; */
+}
 
- /* #game {
+/* #game {
      color: #CCCCCC;
  } */
 
-  /* #game {
+/* #game {
     float: center;
     max-width: 960px;
     margin: auto;
     background-color: #E51D23;
  } */
 
- body {
-    float: center;
-    max-width: 960px;
-    margin: auto;
-    background-color: #E51D23;
-    padding: 25px;
- }
+body {
+  float: center;
+  /* max-width: 960px; */
+  margin: auto;
+}
 
- /* #time {
+.mainContainer {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #e51d23;
+  padding: 25px;
+}
+
+/* #time {
     float: center;
     max-width: 960px;
     margin: auto;
     background-color: #E51D23;
  } */
-
-

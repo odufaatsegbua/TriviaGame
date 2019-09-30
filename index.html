@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Southwest Airlines Culture Quiz</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="mainHeader">
+        Southwest Airlines Culture Quiz
+      </div>
 
-<!-- <div class="container">
-    <div class="jumbotron">
-    <h1 id="header">Southwest Airlines Culture Quiz</h1>
-</div> -->
+      <br />
 
-<div class="mainHeader">
-    Southwest Airlines Culture Quiz
-</div>
+      <!-- button to start game -->
+      <!-- <button class="btn btn-primary">Start Game</button> -->
 
-<br>
+      <!-- time controls -->
+      <div id="mainBody">
+        <div id="time"></div>
+        <div id="game"></div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="submit">Submit</button>
+      </div>
+      <div id="results"></div>
 
-<!-- button to start game -->
-<!-- <button class="btn btn-primary">Start Game</button> -->
-
-<!-- time controls -->
-<div id="mainBody">
-
-<div id="time"></div>
-<div id="game"></div>
-
-</div>
-
-
- <!-- Music & Audio Controls
+      <!-- Music & Audio Controls
  <div class="music">
     <div>
         <audio id="gamemusic">
@@ -43,7 +47,11 @@
                 type="audio/mp3">
         </audio>
     </div> -->
-<script type="text/javascript" src="assets/javascript/questions.js"></script>
-<script type="text/javascript" src="assets/javascript/app.js"></script>   
-</body>
+    </div>
+    <script
+      type="text/javascript"
+      src="assets/javascript/questions.js"
+    ></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
 </html>
