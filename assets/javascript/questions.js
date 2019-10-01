@@ -43,6 +43,18 @@ const gameQuestions = [
   },
 
   {
+    questions: "What are the top two holidays celebrated at Southwest?",
+    choices: [
+      "Christmas and Thanksgiving",
+      "Halloween and Valentines Day",
+      "July 4th and Memorial Day",
+      "Christmas and New Years Eve"
+    ],
+    correctAnswer:
+    "Halloween and Valentines Day"
+  },
+
+  {
     questions: "Is Southwest Airlines an Equal Opportunity Employer?",
     choices: ["Yes", "No", "What's that?", "I'm not sure"],
     correctAnswer: "Yes"
